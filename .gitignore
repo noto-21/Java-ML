@@ -37,3 +37,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Other ###
+lib/javaml-0.1.7/doc
