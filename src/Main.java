@@ -41,8 +41,8 @@ public class Main
             //Time measure
             long[] tTime = new long[3];
 
-            long s = 0;
-            long e = 0;
+            long s;
+            long e;
 
             Dataset[][] allClusters = new Dataset[3][];
 
@@ -92,7 +92,7 @@ public class Main
             //Final tallies
             for (int i = 0; i < 3; i++)
             {
-                String title = "";
+                String title;
                 if (i == 0)
                     title = "Kmeans";
                 else if (i == 1)
