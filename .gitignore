@@ -27,7 +27,6 @@ bin/
 .vscode/
 
 ### Package Files ###
-*.jar
 *.war
 *.nar
 *.ear
